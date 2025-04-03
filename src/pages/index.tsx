@@ -1,5 +1,5 @@
 import { useSignPersonalMessage } from "@mysten/dapp-kit";
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 import { ConnectButton } from "@mysten/dapp-kit";
 import {verifyPersonalMessageSignature} from '@mysten/sui/verify';
 
